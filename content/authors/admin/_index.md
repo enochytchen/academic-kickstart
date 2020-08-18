@@ -72,4 +72,4 @@ user_groups:
 - Visitors
 ---
 
-Enoch is currently working as a Research Assistant in Biostatistics at the Department of Medical Epidemiology and Biostatistics,Karolinska Institutet. His journey in Sweden started in spring, 2018, as he was an exchange student in Lund University. 
+Enoch is currently working as a Research Assistant in Biostatistics at the Department of Medical Epidemiology and Biostatistics, Karolinska Institutet. His journey in Sweden started in spring, 2018, as he was an exchange student in Lund University. 
