@@ -106,11 +106,11 @@ sort agegroup _t
 
 save colon_10yr_rs_to_allcause, replace
 ```
-{{< figure library="true" src="extrapolating_relative_stpm2_fig1.png" title="Extrapolation by restricting follow-up data to 10 years" lightbox="true" >}}
+{{< figure src="extrap_rel_fig1.png" title="Extrapolation by restricting follow-up data to 10 years"  >}}
  The survival was by age groups, where the first 10 years were observed survival and later came the predicted survival. To compare with the empirical Kaplan-Meier curves, the figure below demonstrates the extrapolation.
 
 
-{{< figure library="true" src="extrapolating_relative_stpm2_fig2.png" title="Comparing extrapolation with empirical K-M curve" lightbox="true" >}}
+{{< figure src="extrap_rel_fig2.png" title="Comparing extrapolation with empirical K-M curve" >}}
 
 Extrapolation within relative survival framework is more robust than all-cause survival. In comparison with the figure in [Extrapolating survival with stpm2 (Part 1)](https://http://enochytchen.com/tutorials/extrapolation/allcause/extrapolating_all/), we could observe that the extrapolated survival curves deviate less from the empirical K-M curves. 
 

@@ -62,11 +62,13 @@ As the model was stored in the background, we first cleared the data but created
 fillin```
  function. We then predict the survival by age group using predict to gain extrapolated values beyond 10 year of follow-up.
 
-{{< figure library="true" src="extrapolating_allcause_stpm2_fig1.png" title="Extrapolation by restricting follow-up data to 10 years" lightbox="true" >}}
- The survival was by age groups, where the first 10 years were observed survival and later came the predicted survival.
+{{< figure src="./extrap_allcause_fig1.png" title="Extrapolation by restricting follow-up data to 10 years" >}}
+
+The survival was by age groups, where the first 10 years were observed survival and later came the predicted survival.
 
 
-{{< figure library="true" src="extrapolating_allcause_stpm2_fig2.png" title="Comparing extrapolation with empirical K-M curve" lightbox="true" >}}
+{{< figure src="./extrap_allcause_fig2.png" title="Comparing extrapolation with empirical K-M curve" >}}
+
 
 To evaluate the extrapolated survival, we then compared it with the empirical survival estimated by the Kaplan-Meier's (K-M) method. 
 

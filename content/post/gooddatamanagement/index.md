@@ -4,7 +4,7 @@
 title: "Seven tips of good data management"
 subtitle: ""
 summary: "Dos and don'ts of data management. Let's pick them up together."
-authors: []
+authors: ["Enoch Chen"]
 tags: [data, SHLE series ]
 categories: []
 date: 2020-05-18
@@ -48,7 +48,7 @@ It is quite common that new varivables are created during the data analysis. You
 
 #### Tip 5: Use file headers to document your work
 A file header plays a role as a reminder of what has been done in this single file. It allows us to understand that file by just reading the header. You yourself and your team members definitely say thank-you for keeping this record in the future.
-{{< figure library="true" src="fileheader.png" lightbox="true" >}}
+{{< figure src = "./fileheader.png" >}}
 
 #### Tip 6: Write notes while writing the codes
 My biostat teacher used to talk to himself while writing codes on his program file. He even wrote, ```What are we doing now? We are gonna......``` I actually thought it was quite funny when he did that. But basically, telling yourself what you are doing is quite fundamental, since you **will absolutely forget** what you did. In addition, when I use new commands, I would also write down what it means, even though at that moment I caught the meaning of it.

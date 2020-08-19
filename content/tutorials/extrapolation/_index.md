@@ -1,8 +1,8 @@
 ---
 # Course title, summary, and position in the list.
-
-linktitle: Survival extrapolation
-summary: Learn how to extrapolate survival data
+Title: Survival extrapolation using Stata
+linktitle: Survival extrapolation 
+summary: Learn how to extrapolate survival data in Stata
 weight: 5
 
 # Page metadata.
