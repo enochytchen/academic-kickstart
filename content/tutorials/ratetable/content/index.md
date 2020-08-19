@@ -10,7 +10,7 @@ menu:
   ratetable:
     weight: 10
 ---
-The syntax used in this tutorial can be found [here](create_ratetable).
+The syntax used in this tutorial can be found [here](create_ratetable.R).
 
 ### Data preparation
 First, please install and use the packages needed in the following syntax, and read the colon data.
