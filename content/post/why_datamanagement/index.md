@@ -4,7 +4,7 @@
 title: "Data management? Does it matter?"
 subtitle: ""
 summary: "Data management is boring for sure. Take a look at my poor experience. Then you would agree it is essential. "
-authors: []
+authors: ["Enoch Chen"]
 tags: [data]
 categories: []
 date: 2020-05-16

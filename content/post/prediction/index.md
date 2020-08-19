@@ -4,7 +4,7 @@
 title: "Not easy to be a fortune teller: prediction is hard"
 subtitle: ""
 summary: "Is it easy to make prediction about the future? Take a look at the UK's and Sweden's life expectancy projection."
-authors: []
+authors: ["Enoch Chen"]
 tags: [expected survival, life expectancy, Sweden, UK]
 categories: []
 date: 2020-05-12T14:52:16+02:00
