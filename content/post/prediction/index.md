@@ -37,19 +37,20 @@ However, how precise was the data? Here come two small examples of validating li
 ### The UK's life expectancy projection
 The UK's Office for National Statistics has ever published a report of validating the accurancy of life expectancy. The following figure was downloaded from [National Population Projections Accuracy Report](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/methodologies/nationalpopulationprojectionsaccuracyreport) (1).
 
-{{< figure library="true" src="uk_LEprojection.png" title="Actual and projected life expectancy at birth, UK, 1966-2030" lightbox="true" >}}
+{{< figure src="./uk_LEprojection.png" title="Actual and projected life expectancy at birth, UK, 1966-2030" >}}
 
 It seems that the projection made before 2002 did not perform quite well. For example, projection made in 1975 saying males' life expectancy at birth was estimated to be 71 in 2001, whereas in 2001 it was actuall 79. A 8 years of difference! Then let's take a look on the Swedish population. 
 
 ### The Sweden's life expectancy projection
 Statistiska centralbyrån (Statistics Sweden) also published a similar report as the UK did to evaluate their previous projection on life expectancy. The following figure was downloaded from [Sveriges framtida befolkning 2012–2060](http://share.scb.se/ov9993/data/publikationer/statistik/_publikationer/be0401_2012i60_br_be51br1202.pdf)(2).
+  
+  {{< figure src="./se_LEprojection.png" title="Actual and projected life expectancy at birth, Sweden, 1950-2012">}}
 
-{{< figure library="true" src="se_LEprojection.png" title="Actual and projected life expectancy at birth, Sweden, 1950-2012" lightbox="true" >}}
 The similar issue happened here as well. Earlier projection (before 2000) was not quite right in comparison with the empirical one.
 
 This report was done in 2012 (the empirical trend until 2012). I then followed what Statistics Sweden conducted to generate a similar graph with the earliest open-access projection data till 2009 and empirical data till 2018 using data from Statistics Sweden (3) as well.
 
-{{< figure library="true" src="LEprojection_validation_SE_2030.jpg" title="Actual and projected life expectancy at birth, Sweden, 2000-2030." lightbox="true" >}}
+{{< figure src = "./LEprojection_validation_SE_2030.jpg" title = "Actual and projected life expectancy at birth, Sweden, 2000-2030.">}}
 
 The difference was not as large as projection before 2000, but still, there could be 1-2 years of difference if projecting to 2030. 
 

@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:yi.tung.chen@stud.ki.se"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:enoch.yitung.chen@ki.se"  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -58,7 +58,7 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
+- icon: twitter
   icon_pack: ai
   link: files/cv.pdf
 
@@ -72,4 +72,4 @@ user_groups:
 - Visitors
 ---
 
-Enoch is currently working as a Research Assistant in Biostatistics at the Department of Medical Epidemiology and Biostatistics, Karolinska Institutet. His journey in Sweden started in spring, 2018, as he was an exchange student in Lund University. 
+I am a Research Assistant of Biostatistics in the[Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) at the Department of Medical Epidemiology and Biostatistics, Karolinska Institutet. My main research interests are developing and applying statistical approaches for register-based epidemiological studies, particularly in survival analysis and cost-effectiveness studies in health technology assessment. I enjoy teaching and telling stories as well. I hope you find my personal website useful to you.
