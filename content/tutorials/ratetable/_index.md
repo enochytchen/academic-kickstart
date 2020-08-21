@@ -18,6 +18,8 @@ menu:
 
 Author: Enoch Chen, Paul Dickman
 
+The syntax used in this tutorial can be found [here](https://enochytchen.com/tutorials/ratetable/content/create_ratetable.R).
+
 ### Introduction
 Population mortality rate tables (life tables) are typically stratified by age, sex, and year, and tabulated by government statistics offices (e.g., Human Mortality Database available at https://www.mortality.org/). Occasionally, we would also aim to stratify the rate table by other factors (e.g., race, social class, comorbidity, etc). This tutorial illustrates how to create a rate table from individual data for a cohort representative of the target population (i.e., a random sample of individuals without a diagnosis of cancer). 
 
