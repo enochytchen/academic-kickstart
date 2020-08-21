@@ -31,5 +31,5 @@ The original data is available (in Stata format) at https://pauldickman.com/data
 4. Use  ```rs.surv() ``` along with  the rate table  to estimate net survival.
 
 ### Acknowledgements
-We especially want to thank [Alexander Ploner](https://staff.ki.se/people/aleplo) for providing statistical consulting and R code optimisation tips, [Nurgul Batyrbekova](https://staff.ki.se/people/nurbat) for her insight in modeling survival data on multiple time scale, [Joshua Entrop](https://joshua-entrop.com) for his teaching in plotting regression model results, and [
+We especially want to thank [Alexander Ploner](https://staff.ki.se/people/aleplo) for providing statistical consulting and R code optimisation tips, [Nurgul Batyrbekova](https://staff.ki.se/people/nurbat) for her insight in modeling survival data on multiple time scale, [Joshua Entrop](https://joshua-entrop.com) for his teaching on plotting regression model results, and [
 Quang Thinh Trac](https://staff.ki.se/people/quatra) for his assistance in optimising the syntax.
