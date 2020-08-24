@@ -13,7 +13,7 @@ menu:
 The syntax used in this tutorial can be found [here](https://enochytchen.com/tutorials/ratetable/content/create_ratetable.R).
 
 ### Data preparation
-First, please install and use the packages needed in the following syntax, and read the colon data.
+Install required packages and read the data. We are using a data set containing information on individuals diagnosed with colon cancer (because the data are publically available). In a real application we would use data on individuals randomly selected from the general population. 
 
 ```r
 #' 1 Preparation
@@ -40,10 +40,10 @@ colon <- read_dta( "http://enochytchen.com/directory/data/colon.dta")
 str(colon)
 ```
 
-We then exacted the birth date of each observation by using dx (date of diagnosis) - age at diagnosis * 365.241. The unit here is days in order to be consistent with the unit in ```relsurv::rs.surv()```. Variables sex, subsite, stage, and strata were converted into factor class, which will be automatically converted into dummy varaibles in a regression model in R. In this example, we used two dimensions: subsite + stage, and combined them into one stratum, a combination of all the dimensions except sex, age, and year. Splitting the data frame into lists will be done on this stratum afterwards.  However, if there is only one extra dimension, it is not required to create a stratum. Instead, it is straightforward to split on that single variable.
+We then created an approximate birth date for each individual by using dx (date of diagnosis) - age at diagnosis * 365.241. The unit here is days in order to be consistent with the unit in ```relsurv::rs.surv()```. Variables sex, subsite, stage, and strata were converted into factor class, which will be automatically converted into dummy varaibles in a regression model in R. In this example, we used two dimensions: subsite + stage, and combined them into one stratum, a combination of all the dimensions except sex, age, and year. Splitting the data frame into lists will be done on this stratum afterwards.  However, if there is only one extra dimension, it is not required to create a stratum. Instead, it is straightforward to split on that single variable.
 
 ```r
-#' Extract the date of birth,
+#' Approximate the date of birth,
 #' Will take care of derived variables (entry/exit years) later
 colon2 <- colon %>%
   mutate(sex     = as_factor(sex),       ## as_factor preserves labels
@@ -58,7 +58,7 @@ str(colon2)
 summary(colon2)
 ```
 ### Splitting the time
-Since the secondary time scale in this example is calendar year, we splitted the survival data time at specified times (2 years). One-year interval would lead to convergence problem on ```stpm2``` due to insufficient sample size within each time interval, so we splitted into 2-year intervals instead. 
+We split calendar time into 2-year intervals; for our relatively small data set (15000 individuals) 1-year intervals resulted in convergence problems when we modelled mortality in a later step. 
 
 It is worth taking a look at the definition of ```episode``` in ```
 survival::survSplit```, where it explains, "```episode``` 1= less than the first cutpoint, 2= between the first and the second." Based on this default setting, we then moved each episode (period) by 2.
