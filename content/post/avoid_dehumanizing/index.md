@@ -28,7 +28,7 @@ projects: []
 ---
 {{% toc %}}
 ### Introduction
-My recent work was on analyzing a patient cohort data. When I was documenting the syntax, there was one sentence I wrote, "We then exacted the birth date of **each observation**." My colleague then suggested me to use the other term "**each individual**" instead. The reason behind his argument is to avoid dehumanizing language. This is such a important component of scientific writing I should have picked up!
+My recent work was on analyzing a patient cohort data. In the syntax documentation, there was one sentence I wrote, "We then exacted the birth date of **each observation**." My colleague then suggested me to use the other term "**each individual**" instead. The reason behind his argument is to avoid dehumanizing language. This is such a important component of scientific writing I should have picked up!
 
 
 In scientific writing, we aim to pre-conceive ideas about individuals, both the treatment group and the control group, whereas it is essential to use correct languages to describe them. Incorrect, or even poorly selected, words can harm patients. Furthermore, it definitely has negative impact on the relationship between clinicians/researchers and patients. Once trust is broken, it is difficult to regain. 
@@ -45,7 +45,7 @@ Leopold S. et al wrote an article, entitled: Editorial: Words Hurt – Avoiding 
   * Using normal/able-bodied individuals to refer to the control individuals. Are we saying that the treatment group is **NOT** normal/able-bodied.
 
 ### Conclusion
-Being a thoughtful and sensible writer is the milestone of delievering good research languag, isn't it?
+Being a thoughtful and sensible writer is the milestone of delievering good research language, isn't it?
 
 ### Reference 
 1. Leopold s et al, Editorial: Words Hurt – Avoiding Dehumanizing Language in Orthopaedic Research and Practice. Clin Orthop Relat Res. 2014 Sep; 472(9): 2561–2563. doi: [10.1007/s11999-014-3802-8](10.1007/s11999-014-3802-8)
