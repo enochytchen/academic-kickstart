@@ -48,4 +48,4 @@ Leopold S. et al wrote an article, entitled: Editorial: Words Hurt – Avoiding 
 Being a thoughtful and sensible writer is the milestone of delievering good research language, isn't it?
 
 ### Reference 
-1. Leopold s et al, Editorial: Words Hurt – Avoiding Dehumanizing Language in Orthopaedic Research and Practice. Clin Orthop Relat Res. 2014 Sep; 472(9): 2561–2563. doi: [10.1007/s11999-014-3802-8](10.1007/s11999-014-3802-8)
+1. Leopold s et al, Editorial: Words Hurt – Avoiding Dehumanizing Language in Orthopaedic Research and Practice. Clin Orthop Relat Res. 2014 Sep; 472(9): 2561–2563. doi: [10.1007/s11999-014-3802-8](https://dx.doi.org/10.1007%2Fs11999-014-3802-8)
