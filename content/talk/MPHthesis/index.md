@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Thesis Journey at MPH, Epidemiology
 event: Introduction to Master's Programme in Public Health Sciences
 
@@ -11,7 +11,7 @@ address:
   postcode: '17165'
   country: Sweden
 
-summary: Talk about my thesis journey to the freshers to the Master's Programme in Public Health Sciences at Karolinska Institutet 
+summary: Talk about my thesis journey to freshers to the Master's Programme in Public Health Sciences at Karolinska Institutet 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -20,7 +20,7 @@ date_end: "2020-08-31T11:45:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-08-21"
+publishDate: "2020-08-26"
 
 authors: [Enoch Chen]
 tags: []
@@ -33,28 +33,20 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/enochytchen
-url_code: ""
-url_slides: "MPHthesis"
-url_video: ""
+# - icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/enochytchen
+- name: Slides
+  url: https://enochytchen.com/talk/MPHthesis/MPHthesis_upload.pdf
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: "MPHthesis"
+
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-- internal-project
 
 # Enable math on this page?
 math: true

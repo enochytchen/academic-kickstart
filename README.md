@@ -1,4 +1,9 @@
 #Deployment
+git clone https://github.com/enochytchen/academic-kickstart.git My_Website
+cd My_Website
+git submodule update --init --recursive
+
+
 cd My_Website
 git submodule add -f -b master https://github.com/enochytchen/enochytchen.github.io.git public
 
