@@ -38,7 +38,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/enochytchen
 - name: Slides
-  url: "https://enochytchen.com/talk/mphthesis/MPH-thesis_upload.pdf"
+  url: "https://enochytchen.com/talk/mphthesis/mphthesis_upload.pdf"
 
 
 
