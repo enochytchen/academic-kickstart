@@ -2,7 +2,7 @@
 # Course title, summary, and position in the list.
 Title:  Make ratetable using R
 linktitle: Make ratetable 
-summary: Illustrates an approach to constructing a ratetable object in R by fitting a multiple time-scale flexible parametric models in to individual data
+summary: An alternative approach to constructing a ratetable object in R by fitting a multiple time-scale flexible parametric models using individual-level data
 
 # Page metadata.
 date: "2020-08-19"
