@@ -1,6 +1,6 @@
 ---
-title: Tied time data
-linktitle: Tied time data
+title: Tied time data → Untied
+linktitle: Tied → Untied
 toc: true
 type: docs
 date: "2020-09-22"
@@ -14,9 +14,6 @@ The codes used in this tutorial are available below. \
 [rs.surv](https://enochytchen.com/tutorials/relsurv/tied/rs.surv.R) \
  [stpp, strs, stnet (original tied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_tied.do)\
  [stpp, strs, stnet (untied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_untied.do)
-
-The data used in this example can be found below. \
-[colon.dta](https://enochytchen.com/directory/data/colon.dta) [popmort.dta](https://enochytchen.com/directory/data/popmort.dta)
 
 ### Settings
 
