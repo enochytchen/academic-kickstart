@@ -3,7 +3,7 @@
 
 title: "Avoid dehumanizing language use"
 summary: Does the term "diabetic patients" differ from "patients with diabetes?" Which term is more politically correct based on people-first language?
-authors: [Enoch Chen]
+authors: [Enoch]
 tags: []
 categories: []
 date: 2020-08-24T10:49:13+02:00

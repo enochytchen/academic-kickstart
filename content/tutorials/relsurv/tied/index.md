@@ -41,7 +41,7 @@ The esimates of 1-, 5-, and 10-year relative survival by each program are shown 
 |10|0.431 (0.411-0.451)|0.433 (0.414-0.453)|0.434 (0.415-0.454)| 0.434 (0.415-0.454)|
 
 ### Explanation
-- The default of ```rs.surv()``` calculates the product integral on the hazard level, whereas ```stpp``` uses  the Fleming-Harrington estimate (3), which seems to be more sensitive to ties.
+- By default, both ```rs.surv()``` and  ```stpp``` calculate survival using the product integral method on the hazard level, whereas the Fleming-Harrington estimator (using the expoential of the negative cumulative (excess) hazard), which appears to be more sensitive to ties, is also eligible to be applied (3).
 - ```stnet``` should generate the identical estimates as ```strs```, given ```ht``` is specified in ```strs```.
 - Removing ties did not have an effect with discrete time estimators using life-table framework. (```strs``` and ```stnet```).
 

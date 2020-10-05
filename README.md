@@ -1,3 +1,7 @@
+# New post 
+hugo new  --kind post post/analogue
+
+
 #Deployment
 git clone https://github.com/enochytchen/academic-kickstart.git My_Website
 cd My_Website

@@ -23,6 +23,10 @@
   url = "tutorials/"
   weight = 25
 
+## [main]]
+##  name = "Courses"
+##  url = "courses/"
+##  weight = 28
 
 ##[[main]]
 ##  name = "Publications"

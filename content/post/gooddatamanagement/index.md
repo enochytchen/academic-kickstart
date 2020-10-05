@@ -27,6 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% toc %}}
 I was pretty inspired by [Anna Johansson](https://staff.ki.se/people/annajo)'s [workshop]((https://play.ki.se/media/Data+Management+and+research+documentation+for+researchers/0_h64ki6v7?_ga=2.131118287.1557257458.1589785892-1364153581.1557067020)) and course in good data management at Karolinska Institutet. Thus, I would like to share my experience along with my course notes in this blogpost. For the importance of good data management and my poor experience, please refer to my previous post: [Data management? Does it matter?](http://enochytchen.com/post/why_datamanaegment/)
 
 #### Tip 1: Use a shared drive

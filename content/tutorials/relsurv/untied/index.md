@@ -17,10 +17,10 @@ The codes used in this tutorial are available below. \
  [stpp, strs, stnet](https://enochytchen.com/tutorials/relsurv/untied/using_sim.do)
 
 
- 
+ This example showed how the relative survival estimates change given more and more ties are added into the data.
 
 ### Dataset
-The dataset (```scenario2_1.dta```) is a simulated data, containing 1000 subjects. The original survival time is untied data with 651 distinct values in years (min: 0.0027; max: 12). We then added ties into the data by flooring the time into discrete days, weeks, months, quaters, or years. More ties are added (i.e., less distinct values) as the time interval becomes larger (days→years).
+The dataset (```scenario2_1.dta```) is a simulated data, containing 1000 subjects. The original survival time is untied data with 651 distinct values in years (min: 0.0027; max: 12). We then added ties into the data by flooring the time into discrete days, weeks, months, quaters, or years. More ties are added (i.e., less distinct values) as the time interval becomes larger (days→years). If any survival time became 0 due to flooring, we then made it 0.5 of the time interval (e.g., 0.5 months).
 
 The following table shows how the time was treated in different units.
 
@@ -35,10 +35,10 @@ The following table shows how the time was treated in different units.
 
 
 
-## Relative survival estimates
+### Relative survival estimates
 The following tables show the estimates of 1-, 5-, and 10-year relative survival (RS) using the Pohar-Perme estimator by ```rs.surv```, ```stpp```, ```strs```, and ```stnet```. To make the tables look tidier, here we dismissed the 95% CI, which however can be found in the outputs of the syntax.
 
-### rs.surv()
+#### rs.surv()
 
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
@@ -46,15 +46,15 @@ The following tables show the estimates of 1-, 5-, and 10-year relative survival
 |5|0.618|0.618 | 0.618 | 0.618 | 0.607 | 0.595|
 |10|0.534|0.534| 0.533 | 0.531 | 0.522 | 0.498|
 
-### stpp
+#### stpp
 
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
-|1|0.797|0.797 |0.796 |0.793 | 0.785 |0.732|
-|5|0.613|0.613 | 0.614| 0.616 |0.610 |0.617|
-|10|0.513|0.513|0.513 | 0.512 | 0.509|0.504|
+|1|0.797|0.797 |0.796 |0.790 | 0.777 |0.709|
+|5|0.613|0.613 | 0.613| 0.611 |0.603 |0.595|
+|10|0.512|0.512|0.512 | 0.509 | 0.502|0.484|
 
-### strs
+#### strs
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
 |1|0.798|0.797 |0.795 | 0.792 | 0.778 | 0.732|
@@ -62,7 +62,7 @@ The following tables show the estimates of 1-, 5-, and 10-year relative survival
 |10|0.513|0.513|0.513 | 0.512 | 0.505 | 0.506|
 
 
-### stnet
+#### stnet
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------|------|-----|----|-----|-----|-----|
 |1|0.798 |0.797 |0.795 | 0.798 | 0.798 | 0.799|
