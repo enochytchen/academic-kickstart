@@ -1,5 +1,5 @@
 ---
-title: Graphs and charts say more than words 
+title: Graphs
 linktitle: Graphs
 toc: true
 type: book
@@ -8,14 +8,16 @@ draft: false
 weight: 20
 ---
 ## Learning outcomes
-
-## Study notes
-Study
-cite goldman and pagemo
+In this section, you will learn how to 
+- use Stata to create histograms, bar charts, box plots, scatter plots, and line graphs
+- edit and customise graphs in ```twoway```
+- export graph in any format using ```graph export```
 
 ## Course notes
-Slides can be downloaded (in PDF format) here.
+Slides can be downloaded (in pdf format) [here]().
 
+## Study notes
+Please refer to **1.3 Data presentation** in  [Ch1 Descriptive statistics]()
 
 ## Stata syntax shown in the lecture
-Stata: 
+Stata codes be downloaded (do file) [here]().

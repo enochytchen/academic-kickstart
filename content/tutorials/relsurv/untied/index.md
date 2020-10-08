@@ -50,9 +50,9 @@ The following tables show the estimates of 1-, 5-, and 10-year relative survival
 
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
-|1|0.797|0.797 |0.797 |0.798 | 0.796 |0.789|
-|5|0.613|0.613 | 0.613| 0.613 |0.613 |0.615|
-|10|0.512|0.512|0.512 | 0.514 | 0.515|0.519|
+|1|0.797|0.797 |0.796 | 0.798 | 0.777 |0.709|
+|5|0.613|0.613 | 0.613| 0.613 | 0.603 |0.595|
+|10|0.512|0.512|0.512 | 0.514 | 0.502 |0.484|
 
 #### strs
 |RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
