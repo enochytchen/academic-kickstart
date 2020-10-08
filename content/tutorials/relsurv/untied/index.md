@@ -3,7 +3,7 @@ title: Untied time data → Tied
 linktitle: Untied → Tied
 toc: true
 type: docs
-date: "2020-09-24"
+date: "2020-10-08"
 draft: false
 
 menu:
@@ -68,3 +68,10 @@ The following tables show the estimates of 1-, 5-, and 10-year relative survival
 |1|0.798 |0.798 |0.798 | 0.798 | 0.798 | 0.799|
 |5|0.612 |0.612 |0.612 | 0.612 | 0.613 | 0.614|
 |10|0.513|0.513 |0.513 | 0.513 | 0.513 | 0.514|
+
+### Explanation
+- Generally, introducing ties into the data did not change the esitmates of relative survival no matter which package was used for calculation in this case. One exception happened if discrete time was made into years, which merely 13 distinct values exist, ```rs.surv()``` gave a slightly lower estimates for 1-year relative survival (0.788); ```stpp``` gave a much lower survival in 1-, 5- and 10-year relative survival (0.709, 0.595, and 0.484 respectively); ```strs```, however, outputed higher esitmates (0.825, 0.649, and 0.554 separately); surprisingly, the output estimated by ```stnet```almost did not change given heavy ties were added.
+- One thing we should bear in mind is that introducing ties to the data is in fact changing the original data. I tried to add ties in a sensible way and not to change the order of the data as much as possible. However, I am innocent of the lower or higher estimates  ```rs.surv()```, ```stpp```, and ```strs``` gave. 
+
+### Conclusion
+- It is common that the data from cancer register has tied time, e.g., due to protection on patients' privacy. As estimating survival, we should pay attention to the potential change on the estimates given the amount of tie is introduced.
