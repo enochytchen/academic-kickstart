@@ -13,6 +13,8 @@ In this section, you will learn how to
 - edit and customise graphs in ```twoway```
 - export graph in any format using ```graph export```
 
+## Video lectures
+
 ## Course notes
 Slides can be downloaded (in pdf format) [here]().
 
