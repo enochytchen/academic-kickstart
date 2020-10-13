@@ -18,11 +18,11 @@ menu:
 ---
 
 ### Introduction
-Tied event times in survival mean that some individuals have the same survival times (1), though in reality lifetime is a continuous variable; that is, no individual has exactly the same survival times. However, in practice, cancer registers often only provide data on discrete survival times (for example, in months or in years) (2).
+Tied event times in survival mean that some individuals have the same survival times (1), though in reality lifetime is a continuous variable; that is, no individual has exactly the same survival times. However, in practice, cancer registers often only provide data on discrete survival times (for example, in months or in years) (2), which often results in some individuals having identical (tied) survival time.
 
-Pohar-Perme estimator is a non-parametric estimate of relative survival. It is distinct from other approaches (Ederer I, Ederer II, and Hakulinen), by  weighting by the inverse of the individual's expected survival (3), which makes it an unbiased estimator. For estimating relative survival using Pohar-Perme estimator, there are already multiple packages developed in R and Stata . In ```rs.surv``` and ```stpp```, survival time is treated continuosly, whereas ```strs``` and ```stnet``` implemented Pohar-Perme estimator into discrete time, where survival time is split into intervals.
+Pohar-Perme estimator is a non-parametric estimate of relative survival. It is distinct from other approaches (Ederer I, Ederer II, and Hakulinen), by  weighting by the inverse of the individual's expected survival (3), which makes it an unbiased estimator. For estimating relative survival using Pohar-Perme estimator, there are already multiple packages developed in R and Stata . In ```rs.surv```,  ```stns```,  ```stpp```, survival time is treated continuosly, whereas ```strs``` and ```stnet``` implemented Pohar-Perme estimator into discrete time, where survival time is split into intervals (4).
 
-In this tutorial, two different datasets were applied to compare the estimates of  ```rs.surv``` in R, ```stpp```,  ```strs```,  ```stnet``` in Stata. The colon.dta was used as an example data of tied times (discrete survival times), whereas the scenario2_1.dta has untied times (continuous survival times).
+In this tutorial, two different datasets were applied to compare the estimates of  ```rs.surv``` in R, ```stns```, ```stpp```,  ```strs```, and ```stnet``` in Stata. The colon.dta was used as an example data of tied times (discrete survival times), whereas the scenario2_1.dta has untied times (continuous survival times).
 
 
 
@@ -35,5 +35,6 @@ In this tutorial, two different datasets were applied to compare the estimates o
 1. Zhang MJ. Tied Survival Times. Encyclopedia of Biostatistics. 2005. doi: https://doi.org/10.1002/0470011815.b2a11075
 2. Dickman P, Coviello E. Estimating and modelling relative survival. The Stata Journal. 2015;15:186-215.
 3. Pohar Perme M, Stare J, Estève J. On Estimation in Relative Survival. Biometrics. 2012;68:113-120
+4. Comparison between  ```stns``` and  ```stpp```, please refer to [https://pclambert.net/software/stpp/](https://pclambert.net/software/stpp/)
 
 

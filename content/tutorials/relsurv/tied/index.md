@@ -12,8 +12,8 @@ menu:
 ---
 The codes used in this tutorial are available below. \
 [rs.surv](https://enochytchen.com/tutorials/relsurv/tied/rs.surv.R) \
- [stpp, strs, stnet (original tied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_tied.do)\
- [stpp, strs, stnet (untied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_untied.do)
+ [stns, stpp, strs, stnet (original tied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_tied.do)\
+ [stns, stpp, strs, stnet (untied data)](https://enochytchen.com/tutorials/relsurv/tied/using_colon_untied.do)
 
 ### Settings
 
@@ -25,24 +25,26 @@ This tutorial first used the colon.dta, which is originally a tied survival time
 - In ```strs``` and ```stnet```, monthly intervals were calculated  up to ten years by specifying ```br(0(`=1/12')10)```.
 
 ### Results
+To make the tables look tidier, here we dismissed the 95% CI, which however can be found in the outputs of the syntax.
 The esimates of 1-, 5-, and 10-year relative survival by each program are shown below:
 #### Using colon.dta (original tied time data)
-|t|rs.surv|stpp |strs|stnet|
-|-------| ------|-----|----|-----|
-|1| 0.676 (0.669-0.684)|0.682 (0.674-0.690)|0.677 (0.669-0.685)| 0.677 (0.669-0.685)|
-|5| 0.473 (0.463-0.484)|0.479 (0.468-0.490)|0.474 (0.463-0.484)| 0.474 (0.463-0.484)|
-|10|0.433 (0.414-0.453)|0.440 (0.421-0.461)|0.434 (0.415-0.454)|0.434 (0.415-0.454)|
+|t|rs.surv|stns|stpp |strs|stnet|
+|-------| ------|------|-----|----|-----|
+|1| 0.676 |0.677|0.676 |0.677 | 0.677 |
+|5| 0.473 |0.474|0.473 |0.474 | 0.474|
+|10|0.433 |0.437|0.434 |0.434 | 0.434 |
 
 #### Using colon.dta (untied time data)
-||rs.surv|stpp |strs|stnet|
-|-------| ------|-----|----|-----|
-|1| 0.676 (0.668-0.684)|0.677 (0.669-0.685)|0.677 (0.669-0.685)|0.677 (0.669-0.685)|
-|5| 0.472 (0.461-0.483)| 0.473 (0.463-0.484)|0.474 (0.463-0.484)| 0.474 (0.463-0.484)|
-|10|0.431 (0.411-0.451)|0.433 (0.414-0.453)|0.434 (0.415-0.454)| 0.434 (0.415-0.454)|
+|t|rs.surv|stns|stpp |strs|stnet|
+|-------| ------|------|-----|----|-----|
+|1| 0.676 | 0.677|0.677 |0.677 |0.677 |
+|5| 0.472 | 0.474|0.473 | 0.474| 0.474 |
+|10|0.431 | 0.435 |0.433 |0.434 | 0.434 |
 
 ### Explanation
-- By default, both ```rs.surv()``` and  ```stpp``` calculate survival using the product integral method on the hazard level, whereas the Fleming-Harrington estimator (using the expoential of the negative cumulative (excess) hazard), which appears to be more sensitive to ties, is also eligible to be applied (3).
-- ```stnet``` should generate the identical estimates as ```strs```, given ```ht``` is specified in ```strs```.
+- By default, both ```rs.surv()```, ```stns```, ```stpp``` calculate survival using the product integral method on the hazard level, whereas in ```strs``` and ```stnet``` time-scale is split into numbers of intervals (using actuarial life-table approach). 
+- In ```stpp```, the Fleming-Harrington estimator (using the expoential of the negative cumulative (excess) hazard), which appears to be more sensitive to ties, is also eligible to be applied (3).
+- ```stnet``` should generate the identical estimates as ```strs```, given that ```ht``` is specified in ```strs```.
 - Removing ties did not have an effect with discrete time estimators using life-table framework. (```strs``` and ```stnet```).
 - In ```strs``` and ```stnet```, life-table framework is implemented to estimate relative survival. However, should the cutpoints be in months ```br(0(`=1/12')10)``` or in years ```br(0(1)10)```? \
 A: Monthly estimate is more accurate. Both ```strs``` and ```stnet``` - calculates the attained age and attained year at the beginning  of each interval and takes the ```floor()``` of these values from the popmort file to obtain the expected mortality rate. However, typically the survivaly probility from the popmort file (calculated from 1-year probability of death, by using  by $-exp(H)$) is the probability of surviving 1 year, $p$. If it is monthly interval, we take the twelth root of the survival probability, $p^{1/12}$. Calculating by month literally means we do it 12 times to calculate the survival from an $x$ year-old person until he turns $(x+1)$ years old, but if using annual interval, we do it once instead.

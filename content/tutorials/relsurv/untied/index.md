@@ -14,7 +14,7 @@ menu:
 
 The codes used in this tutorial are available below. \
 [rs.surv](https://enochytchen.com/tutorials/relsurv/untied/using_sim.R) \
- [stpp, strs, stnet](https://enochytchen.com/tutorials/relsurv/untied/using_sim.do)
+ [stns, stpp, strs, stnet](https://enochytchen.com/tutorials/relsurv/untied/using_sim.do)
 
 
  This example showed how the relative survival estimates change given more and more ties are added into the data.
@@ -40,38 +40,46 @@ The following tables show the estimates of 1-, 5-, and 10-year relative survival
 
 #### rs.surv()
 
-|RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
+|Time <br/> (year)|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
 |1|0.797|0.797 | 0.797 | 0.790 | 0.796 | 0.788|
 |5|0.618|0.618 | 0.618 | 0.618 | 0.617 | 0.613|
 |10|0.534|0.534| 0.534 | 0.536 | 0.535 | 0.529|
 
+#### stns
+
+|Time <br/> (year)|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
+|-------| ------|-----|----|-----|-----|-----|
+|1|0.788|0.787 | 0.786 | 0.780 | 0.767 | 0.701|
+|5|0.580|0.580 | 0.580 | 0.580 | 0.570 | 0.563|
+|10|0.464|0.464| 0.464 | 0.465 | 0.465 | 0.463|
+
 #### stpp
 
-|RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
+|Time <br/> (year)|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
-|1|0.797|0.797 |0.796 | 0.798 | 0.777 |0.709|
+|1|0.797|0.797 |0.796 | 0.790 | 0.777 |0.709|
 |5|0.613|0.613 | 0.613| 0.613 | 0.603 |0.595|
-|10|0.512|0.512|0.512 | 0.514 | 0.502 |0.484|
+|10|0.512|0.512|0.512 | 0.509 | 0.502 |0.484|
 
 #### strs
-|RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
+|Time <br/> (year)|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------| ------|-----|----|-----|-----|-----|
-|1|0.798|0.798 |0.798 | 0.798 | 0.798 | 0.825|
-|5|0.612|0.612 |0.612 | 0.612 | 0.613 | 0.649|
-|10|0.513|0.513|0.513 | 0.513 | 0.513 | 0.554|
+|1|0.798|0.797 |0.795 | 0.792 | 0.778 | 0.732|
+|5|0.612|0.612 |0.612 | 0.616 | 0.605 | 0.617|
+|10|0.513|0.513|0.513 | 0.512 | 0.505 | 0.506|
 
 
 #### stnet
-|RS|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
+|Time <br/> (year)|tt1<br/> original|tt2 <br/> days|tt3  <br/> weeks|tt4  <br/> months|tt5  <br/> quarters|tt6  <br/> years|
 |-------|------|-----|----|-----|-----|-----|
-|1|0.798 |0.798 |0.798 | 0.798 | 0.798 | 0.799|
+|1|0.798 |0.797 |0.795 | 0.798 | 0.798 | 0.799|
 |5|0.612 |0.612 |0.612 | 0.612 | 0.613 | 0.614|
 |10|0.513|0.513 |0.513 | 0.513 | 0.513 | 0.514|
 
 ### Explanation
-- Generally, introducing ties into the data did not change the esitmates of relative survival no matter which package was used for calculation in this case. One exception happened if discrete time was made into years, which merely 13 distinct values exist, ```rs.surv()``` gave a slightly lower estimates for 1-year relative survival (0.788); ```stpp``` gave a much lower survival in 1-, 5- and 10-year relative survival (0.709, 0.595, and 0.484 respectively); ```strs```, however, outputed higher esitmates (0.825, 0.649, and 0.554 separately); surprisingly, the output estimated by ```stnet```almost did not change given heavy ties were added.
-- One thing we should bear in mind is that introducing ties to the data is in fact changing the original data. I tried to add ties in a sensible way and not to change the order of the data as much as possible. However, I am innocent of the lower or higher estimates  ```rs.surv()```, ```stpp```, and ```strs``` gave. 
+- Generally, introducing ties into the data did not change the esitmates of relative survival no matter which package was used for calculation in this case. One exception happened if discrete time was made into years (```tt6```), which merely 13 distinct values exist, ```rs.surv()``` and ```strs``` gave slightly lower estimates for 1-year relative survival (0.788 and 0.732 separately);  ```stns``` and ```stpp``` gave much lower survival, particularly in 1-year net survival; surprisingly, the output estimated by ```stnet```almost did not change given heavy ties were added.
+- One thing we should bear in mind is that introducing ties to the data has in fact changed the original data. I tried to add ties in a sensible way and not to change the order of the data as much as possible. However, I am innocent of the lower or higher estimates  ```rs.surv()```, ```stns```, ```stpp```, and ```strs``` gave. 
 
 ### Conclusion
 - It is common that the data from cancer register has tied time, e.g., due to protection on patients' privacy. As estimating survival, we should pay attention to the potential change on the estimates given the amount of tie is introduced.
