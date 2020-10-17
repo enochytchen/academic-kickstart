@@ -8,14 +8,19 @@ draft: false
 weight: 10
 ---
 ## Learning outcomes
+In this section, you will learn how to
+- ensure the analysis is reproducible
+- work coherently and efficiently with yourself 
+- ensure the project can be understood by others (supervisors, collaborators, and future readers)
+- create a good work flow and enhance accuracy of work 
+
+## Course notes
+Slides can be downloaded (in PDF format) [here](/DataManagement_EC_202010.pdf).
+
 
 ## Study notes
 Study
 cite goldman and pagemo
-
-## Course notes
-Slides can be downloaded (in PDF format) here.
-
 
 ## Stata syntax shown in the lecture
 Stata: 
