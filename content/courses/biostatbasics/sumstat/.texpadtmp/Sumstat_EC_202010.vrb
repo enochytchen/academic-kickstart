@@ -1,0 +1,5 @@
+\frametitle{Summary statistics: Get to know the data}
+\verbatim|summarize|
+	\verbatim|describe|
+	\verbatim|codebook|
+	\verbatim|list|

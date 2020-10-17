@@ -15,12 +15,10 @@ In this section, you will learn how to
 - create a good work flow and enhance accuracy of work 
 
 ## Course notes
-Slides can be downloaded (in PDF format) [here](/DataManagement_EC_202010.pdf).
+Slides can be downloaded (in PDF format) [here](DataManagement_EC_202010.pdf).
 
 
 ## Study notes
-Study
-cite goldman and pagemo
+No study notes in this section
 
-## Stata syntax shown in the lecture
-Stata: 
+## Excercise

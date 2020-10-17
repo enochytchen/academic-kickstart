@@ -4,7 +4,7 @@ linktitle: Distributions
 toc: true
 type: book
 date: "2020-09-30"
-draft: false
+draft: true
 weight: 25
 ---
 ## Learning outcomes
