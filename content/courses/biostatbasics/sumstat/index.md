@@ -23,5 +23,5 @@ Slides can be downloaded (in pdf format) [here]().
 ## Study notes
 [Ch1 Descriptive statistics]()
 
-## Stata syntax shown in the lecture
+## Stata syntax in the slides
 Stata codes be downloaded (do file) [here]().

@@ -20,5 +20,5 @@ Slides can be downloaded (in pdf format) [here](data_clearance_EC.pdf).
 ## Study notes
 No study notes for this session
 
-## Stata syntax shown in the lecture
+## Stata syntax in the slides
 Stata codes be downloaded (do file) [here](data_clearance.do).
