@@ -24,3 +24,9 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[headers]]
+  for = ".do"
+  [headers.values]
+    Content-Type: application/do
+    Content-Disposition: inline;filename="myfile.do"
