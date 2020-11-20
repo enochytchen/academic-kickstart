@@ -4,7 +4,7 @@ linktitle: Confidence Intervals
 toc: true
 type: book
 date: "2020-09-30"
-draft: false
+draft: true
 weight: 27
 ---
 ## Learning outcomes

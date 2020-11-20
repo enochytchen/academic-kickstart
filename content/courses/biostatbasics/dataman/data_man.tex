@@ -1,42 +1,4 @@
-\documentclass{beamer} 
-\usetheme{Madrid}
-\usepackage{pdfpages}
-\usepackage[utf8x]{inputenc}
-\usepackage{url}
-\usepackage{graphicx}
-\usepackage{graphics}
-\usepackage{adjustbox}
-\usepackage{ragged2e}
-\usepackage{verbatim}
-\usepackage{textpos}
-\usepackage{lmodern,textcomp}
- \setbeamertemplate{enumerate items}[default]
- \setbeamertemplate{itemize items}[circle]
- \setbeamertemplate{frametitle continuation}{}
-\setbeamertemplate{section in toc}[circle]
-\setbeamertemplate{subsection in toc}[circle]
-
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
-
-\beamertemplatenavigationsymbolsempty
-%%%%%%%%%%%%%%%Color%%%%%%%%%%%%%%%
-\definecolor{KIPlum}{HTML}{880052}
-\definecolor{box}{RGB}{250, 117, 144}
-\usecolortheme[named=KIPlum]{structure}
-
-%%%%%%%%%%%%%%%Bibliography setting%%%%%%%%%%%%%%%
-\usepackage[numbers,comma,sort&compress]{natbib}
-\makeatletter
-\renewcommand{\@biblabel}[1]{#1.} %remove brackets from the ref list
-\setcitestyle{comma, numbers,sort&compress, super}
-\bibliographystyle{/Users/Enoch/survbib/bibtex/bst/vancouv12}
-\setbeamertemplate{bibliography item}{text}
+\input{/Users/yitche/My_Website/content/courses/biostatbasics/settings.tex}
 
 %%%%%%%%%%%%%%%Title page%%%%%%%%%%%%%%%
 
@@ -60,53 +22,54 @@ This course material in data management is based on my learning from \href{https
 \end{frame}
 
 %%%%%%%%%%%%%%Outline%%%%%%%%%%%%%%%%
-\begin{frame}
-\addtolength{\leftskip}{1cm}
-\begin{minipage}{\textwidth}
-\vspace{0.5cm}
-\frametitle{Outline}
-    \tableofcontents[hideallsubsections]
-\end{minipage}
+\section*{Outline}
+\begin{frame}{Outline}
+          \tableofcontents
 \end{frame}
 
 %%%%
 \section{What if no data management?}
-\begin{frame}[allowframebreaks]{What if no data management?}
+
+\begin{frame}{\secname}
 In the beginning, 
 \begin{center}
-		\includegraphics{image/desktop}
+		\includegraphics[scale=0.4]{image/desktop}
 \end{center}
+\end{frame}
 
-\newpage
+\begin{frame}{\secname}
 In the half-way of the research, \\
 \begin{center}
-		\includegraphics{image/messy-desktop}
+		\includegraphics[scale=0.5]{image/messy-desktop}
 \end{center}
+\end{frame}
 
-\newpage
+\begin{frame}{\secname}
 At the end, or saying you cannot even walk till the end?
 
 \begin{center}
 		\includegraphics[scale=0.3]{image/more-messy-desktop}
 \end{center}
+\end{frame}
 
-\newpage
-
-Imagine now...
-\begin{itemize}
+\begin{frame}{\secname}
+Imagine now 
+\begin{itemize}[<+->]
 	\item if you want to correct Table I, where is the do file for descriptive analysis?
 	\item if your supervisor says, "Please summarise how far you've gone in this project." You probably cannot just drop him/her your syntax. 
 	\item if your classmate asks you to teach her how to write a certain Stata code, you remember you've done it before, but where did you put it?
 	\item if your collaborator needs to take over your analysis, can he/she understand what you've completed?
 \end{itemize}
+\end{frame}
 
-\newpage 
+\begin{frame}{\secname}
 
 \begin{center}
 		\includegraphics[scale=0.3]{image/more-messy-desktop}
 \end{center}
+\end{frame}
 
-\newpage
+\begin{frame}{\secname}
 
 So I would say you need to have a friend called \\
 \begin{center}
@@ -116,9 +79,9 @@ So I would say you need to have a friend called \\
 \end{frame}
 
 %%%%
-\section{Aims of data management}
-\begin{frame}{Aims of data management}
-\begin{itemize}
+\section{Aims of data management (also learning outcomes)}
+\begin{frame}{\secname}
+\begin{itemize}[<+->]
 	\item To ensure the analysis is reproducible
 	\item To work coherently and efficiently with yourself 
 	\item To ensure the project can be understood by others (supervisors, collaborators, and future readers)
@@ -240,21 +203,24 @@ So I would say you need to have a friend called \\
 %%%%
 \section{Other do's and don'ts}
 
-\begin{frame}{Other do's and don'ts}
-	\begin{enumerate}
-	\item Use a shared drive. (Sometimes you are even required to do that because of data privacy.)
+\begin{frame}{\secname}
+
+\begin{enumerate}[<+->]
+	\item Use a shared drive. (Required to do that because of data privacy.)
 	\item Give appropriate names to your files and variables	
-	\begin{itemize}
-		\item No stupid names, such as new1, new2, new3, final1, final2, final3, latest1
-		\item No space in-between & No special character (in case, the software cannot read.)
-		\item For binomial variables, $=1$ implies yes, and $=0$ implies no.
-		\item Label your variables, please!
-	\end{itemize}
+		\begin{itemize}[<+->]
+			\item No stupid names, such as new1, new2, new3, final1, final2, final3, latest1
+			\item No space in-between \& No special character (in case, the software cannot read.)
+			\item For binomial variables, $=1$ implies yes, and $=0$ implies no.
+			\item Label your variables, please!
+		\end{itemize}
 	\item Same names for linking files (.do .r .sas $\rightarrow$ .log $\rightarrow$ .doc)
 	\item Don't replace the original files or variables. (Well if you accidentally do this, you still get a chance to revert if using shared drive.)
-	\end{enumerate}
-
+\end{enumerate}
+	
 \end{frame}
+
+%%
 
 \section{Wrap it up}
 \begin{frame}{Wrap it up}
@@ -272,10 +238,4 @@ So I would say you need to have a friend called \\
 \end{itemize}
 \end{frame}
 
-\section{References}
-\begin{frame}{References}
-\begin{itemize}
-	\item	
-\end{itemize}
-\end{frame}
 \end{document}

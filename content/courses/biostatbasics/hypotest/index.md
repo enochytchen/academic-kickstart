@@ -4,7 +4,7 @@ linktitle: Hypothesis tests
 toc: true
 type: book
 date: "2020-09-30"
-draft: false
+draft: true
 weight: 30
 ---
 ## Learning outcomes
