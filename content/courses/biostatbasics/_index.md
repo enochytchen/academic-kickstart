@@ -2,7 +2,7 @@
 # Course title, summary, and position in the list.
 Title: Basic Biostatistics
 linktitle: Basic Biostatistics
-summary: (4FH089) For MSc students in Public Health Sciences at Karolinska Institutet, Spring 2021.
+summary: Applied Epidemiology I (4FH089) Stata lab sessions for MSc students in Public Health Sciences at Karolinska Institutet, Spring 2021.
 
 # Page metadata.
 date: "2020-09-30"
