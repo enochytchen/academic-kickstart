@@ -2,6 +2,8 @@
 cd My_Website
 git submodule add -f -b master https://github.com/enochytchen/enochytchen.github.io.git public
 
+cd
+cd My_Website
 git add .
 git commit -m "Initial commit"
 git push -u origin master
@@ -12,6 +14,9 @@ git add .
 git commit -m "Build website"
 git push origin master
 
+# Make a post
+cd My_Website
+hugo new  --kind post post/my-article-name
 
 ########################################################
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
