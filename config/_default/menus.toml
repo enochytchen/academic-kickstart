@@ -23,6 +23,11 @@
   url = "tutorials/"
   weight = 25
 
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 25
+
 ## [main]]
 ##  name = "Courses"
 ##  url = "courses/"
