@@ -10,6 +10,8 @@ menu:
   ratetable:
     weight: 10
 ---
+Enoch Chen, Paul Dickman
+
 The syntax used in this tutorial can be found [here](https://enochytchen.com/tutorials/ratetable/content/create_ratetable.R).
 
 ### Data preparation

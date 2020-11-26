@@ -1,0 +1,5 @@
+\frametitle{\secname }
+\begin{scriptsize}
+	\bibliographystyle{/Users/yitche/survbib/bibtex/bst/vancouv12}
+	\bibliography{/Users/yitche/Box/enochref.bib}
+    \end{scriptsize}

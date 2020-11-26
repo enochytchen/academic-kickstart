@@ -1,0 +1,8 @@
+\beamer@sectionintoc {2}{What if no data management?}{4}{0}{1}
+\beamer@sectionintoc {3}{Aims of data management (also learning outcomes)}{10}{0}{2}
+\beamer@sectionintoc {4}{Good folder structure}{11}{0}{3}
+\beamer@sectionintoc {5}{Good documents}{12}{0}{4}
+\beamer@sectionintoc {6}{Good Readme.txt}{13}{0}{5}
+\beamer@sectionintoc {7}{Good habits on coding}{14}{0}{6}
+\beamer@sectionintoc {8}{Other do's and don'ts}{16}{0}{7}
+\beamer@sectionintoc {9}{Wrap it up}{17}{0}{8}

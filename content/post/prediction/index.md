@@ -27,6 +27,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% toc %}}
+
 There are a bunch of quotes related to prediction which can be found at
 [It’s Difficult to Make Predictions, Especially About the Future](https://quoteinvestigator.com/2013/10/20/no-predict/). Basically, these quotes do not differ from one another. They generally want to express that predection on future is risky and chanllenging. Moreover, it could lead to quantitative problems, such as underestimation or overestimation.
 

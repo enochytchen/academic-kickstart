@@ -72,4 +72,4 @@ user_groups:
 - Visitors
 ---
 
-I am a Research Assistant of Biostatistics in the[Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) at the Department of Medical Epidemiology and Biostatistics, Karolinska Institutet. My main research interests are developing and applying statistical approaches for register-based epidemiological studies, particularly in survival analysis and cost-effectiveness studies in health technology assessment. I enjoy teaching statistics and telling stories as well. I truly hope you find my personal website useful to you.
+I am a Research Assistant at the[Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) at the Department of Medical Epidemiology and Biostatistics, Karolinska Institutet. My main research interests are developing and applying statistical approaches for register-based epidemiological studies, particularly in survival analysis and cost-effectiveness studies in health technology assessment. I enjoy teaching statistics and telling stories as well. I truly hope you find my personal website useful to you.
