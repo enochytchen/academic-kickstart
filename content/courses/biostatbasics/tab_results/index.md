@@ -26,4 +26,4 @@ Slides can be downloaded (in pdf format) [here](tab_results.pdf).
 [Ch1 Descriptive statistics]()-->
 
 ## Stata syntax in the slides
-Stata codes be downloaded (do-file) at [tab_results](tab_results.do).
+Stata codes be downloaded (do-file) [here](tab_results.do).

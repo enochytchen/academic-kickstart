@@ -21,5 +21,5 @@ In this section, you will learn how to
 Slides can be downloaded (in pdf format) [here](data_clearance.pdf).
 
 ## Stata syntax in the slides
-Stata codes be downloaded (do file) [here](data_clearance.do).
+Stata codes be downloaded (do-file) [here](data_clearance.do).
 <!--## Excercise The exercise of this lecture can be downloaded [here](data_clearance_ex)-->

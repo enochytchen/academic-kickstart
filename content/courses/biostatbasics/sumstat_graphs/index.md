@@ -24,6 +24,6 @@ Slides can be downloaded (in pdf format) [here](sumstat_graphs.pdf).
 [Ch1 Descriptive statistics]()-->
 
 ## Stata syntax in the slides
-Stata codes be downloaded (do file) below 
+Stata codes be downloaded (do-file) below 
 - [Summary statistics](sumstat.do)
 - [Graphs](graphs.do)
