@@ -1,0 +1,17 @@
+\beamer@sectionintoc {2}{Summary statistics}{4}{0}{1}
+\beamer@subsectionintoc {2}{1}{Bad example}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{Measures of Central Tendency: mean, median, mode}{5}{0}{1}
+\beamer@subsectionintoc {2}{3}{Measures of Dispersion: range, IQR, variance, standard deviation}{9}{0}{1}
+\beamer@sectionintoc {3}{Graphs}{13}{0}{2}
+\beamer@subsectionintoc {3}{1}{Bad examples}{13}{0}{2}
+\beamer@subsectionintoc {3}{2}{Learning from errors}{17}{0}{2}
+\beamer@subsectionintoc {3}{3}{Histogram}{19}{0}{2}
+\beamer@subsectionintoc {3}{4}{Bar chart}{20}{0}{2}
+\beamer@subsectionintoc {3}{5}{Scatter plot}{21}{0}{2}
+\beamer@subsectionintoc {3}{6}{Box plot}{22}{0}{2}
+\beamer@subsectionintoc {3}{7}{Line graph}{23}{0}{2}
+\beamer@subsectionintoc {3}{8}{Stratification}{24}{0}{2}
+\beamer@subsectionintoc {3}{9}{Putting graphs together}{25}{0}{2}
+\beamer@subsectionintoc {3}{10}{Export}{26}{0}{2}
+\beamer@subsectionintoc {3}{11}{Study map}{27}{0}{2}
+\beamer@sectionintoc {4}{References}{28}{0}{3}

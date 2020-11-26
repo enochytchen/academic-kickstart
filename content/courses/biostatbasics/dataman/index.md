@@ -18,9 +18,20 @@ In this section, you will learn how to
 ## Course notes
 Slides can be downloaded (in PDF format) [here](data_man.pdf).
 
-## Template for do files
-The do-file template can be downloaded [here](do_template.do)
+## Templates for do files
+<!--- [Do-file template](do_template.do)
+- Analysis plan template
+- Codebook template
+- Dummy table template
+- Logbook template
+- Readme.txt template
+-->
+<!--## Suggested readings
+- The Department of Medical Epidemiology and Biostatistics, Karolinska Institutet.
+MEB Guidelines for Documentation and Archiving Version 6. 2018.
 
+
+-->
 <!--## Excercise
 The exercise of this lecture can be downloaded [here](data_man_ex). 
 -->
