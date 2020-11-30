@@ -1,0 +1,14 @@
+\beamer@sectionintoc {2}{Graphs}{4}{0}{1}
+\beamer@subsectionintoc {2}{1}{Bad examples}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{Learning from errors}{8}{0}{1}
+\beamer@subsectionintoc {2}{3}{Basics of making graphs}{10}{0}{1}
+\beamer@subsectionintoc {2}{4}{Study map}{16}{0}{1}
+\beamer@subsectionintoc {2}{5}{Histogram}{17}{0}{1}
+\beamer@subsectionintoc {2}{6}{Bar chart}{18}{0}{1}
+\beamer@subsectionintoc {2}{7}{Scatter plot}{19}{0}{1}
+\beamer@subsectionintoc {2}{8}{Box plot}{20}{0}{1}
+\beamer@subsectionintoc {2}{9}{Line graph}{21}{0}{1}
+\beamer@subsectionintoc {2}{10}{Stratification}{22}{0}{1}
+\beamer@subsectionintoc {2}{11}{Putting graphs together}{23}{0}{1}
+\beamer@subsectionintoc {2}{12}{Export}{24}{0}{1}
+\beamer@sectionintoc {3}{References}{26}{0}{2}
