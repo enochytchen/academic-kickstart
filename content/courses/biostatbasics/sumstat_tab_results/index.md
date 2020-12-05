@@ -20,10 +20,11 @@ In this section, you will learn how to
 
 <!--## Video lecture-->
 ## Course notes
-Slides can be downloaded (in pdf format) [here](tab_results.pdf).
+Slides can be downloaded (in pdf format) [here](sumstat_tab_results.pdf).
 
 <!--## Study notes
 [Ch1 Descriptive statistics]()-->
 
 ## Stata syntax in the slides
-Stata codes be downloaded (do-file) [here](tab_results.do).
+[sumstat.do](sumstat.do)
+[tab_results.do](tab_results.do).
