@@ -1,6 +1,6 @@
 ---
-title: Summary Statistics and Graphs
-linktitle: Summary Statistics and Graphs
+title: Graphs
+linktitle: Graphs
 toc: true
 type: book
 date: "2020-11-20"
@@ -18,12 +18,11 @@ In this section, you will learn how to
 
 <!--## Video lecture-->
 ## Course notes
-Slides can be downloaded (in pdf format) [here](sumstat_graphs.pdf).
+Slides can be downloaded (in pdf format) [here](graphs.pdf).
 
 <!--## Study notes
 [Ch1 Descriptive statistics]()-->
 
 ## Stata syntax in the slides
 Stata codes be downloaded (do-file) below 
-- [Summary statistics](sumstat.do)
 - [Graphs](graphs.do)
