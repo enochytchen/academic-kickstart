@@ -9,14 +9,14 @@ weight: 17
 ---
 ## Learning outcomes
 In this section, you will learn how to
-- measure central tendency of the data (mean, median, amd mode)
-- measure dispersion of the data (range, interquartile range, variance, and standard deviation)
-- select suitable graphs to demonstrate the data
+- make graph based on basic principles
+- choose what graph to generate
 - use Stata to create histograms, bar charts, box plots, scatter plots, and line graphs
 - customise graphs
-- export graphs in any format
+- export graphs
 
-<!--## Video lecture-->
+## Video lecture
+
 ## Course notes
 Slides can be downloaded (in pdf format) [here](graphs.pdf).
 

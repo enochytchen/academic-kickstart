@@ -1,6 +1,6 @@
 ---
-title: Tables and Interpreting results
-linktitle: Tables and Interpreting results
+title: Summary statistics, tables and interpreting results
+linktitle: Summary statistics, tables and interpreting results
 toc: true
 type: book
 date: "2020-11-26"
@@ -9,7 +9,12 @@ weight: 19
 ---
 ## Learning outcomes
 In this section, you will learn how to
-- make one-way and two by two tables
+- describe summary statistics
+    - measures of central tendency
+    - measures of dispersion
+- make tables
+    - based on basic principles
+    - one-way and two by two tables
 - use Stata tool for Epidemiology
 - recapture basic epidemiology terms, including
     - rate, proportion
@@ -18,7 +23,8 @@ In this section, you will learn how to
 - interpret results of ratios
 - calculate ratios using Stata
 
-<!--## Video lecture-->
+## Video lecture
+
 ## Course notes
 Slides can be downloaded (in pdf format) [here](sumstat_tab_results.pdf).
 
@@ -26,5 +32,5 @@ Slides can be downloaded (in pdf format) [here](sumstat_tab_results.pdf).
 [Ch1 Descriptive statistics]()-->
 
 ## Stata syntax in the slides
-[sumstat.do](sumstat.do)
+[sumstat.do](sumstat.do)\
 [tab_results.do](tab_results.do).
