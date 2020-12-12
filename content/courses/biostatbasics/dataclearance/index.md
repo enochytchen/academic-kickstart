@@ -16,6 +16,7 @@ In this section, you will learn how to
 - manage variables
 
 ## Video lecture
+{{< youtube PY6BKbsmO2A >}}
 
 ## Course notes
 Slides can be downloaded (in pdf format) [here](data_clearance.pdf).

@@ -16,6 +16,7 @@ In this section, you will learn how to
 - export graphs
 
 ## Video lecture
+{{< youtube kMss9A_VTVw >}}
 
 ## Course notes
 Slides can be downloaded (in pdf format) [here](graphs.pdf).

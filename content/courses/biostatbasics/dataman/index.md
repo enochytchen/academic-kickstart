@@ -22,7 +22,7 @@ Learning data management can help you
 - enhance accuracy of work.
 
 ## Video lecture
-
+{{< youtube WEL23bR3NF0 >}}
 
 ## Course notes
 Slides can be downloaded (in PDF format) [here](data_man.pdf).

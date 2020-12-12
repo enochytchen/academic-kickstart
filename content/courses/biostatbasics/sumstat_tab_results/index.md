@@ -24,6 +24,7 @@ In this section, you will learn how to
 - calculate ratios using Stata
 
 ## Video lecture
+{{< youtube gIWNPa2noK4 >}}
 
 ## Course notes
 Slides can be downloaded (in pdf format) [here](sumstat_tab_results.pdf).
