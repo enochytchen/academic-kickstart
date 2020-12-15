@@ -25,8 +25,8 @@ date_format = "Jan 2006"
   date_start = "2020-01-01"
   date_end = "2020-06-07"
   description = """
-  Master thesis: [Extrapolating cancer patient survival: a comparison of the flexible parametric model and the rolling-over algorithm](Enoch_MSc_thesis.pdf)
-  """
+  Master thesis: [Extrapolating cancer patient survival: a comparison of the flexible parametric model and the rolling-over algorithm](files/Enoch_MSc_thesis.pdf)
+"""
 
 [[experience]]
   title = "Visiting intern student"
