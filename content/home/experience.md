@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2020-01-01"
   date_end = "2020-06-07"
   description = """
-  Working on validation studies in statistical methods of extrapolating cancer patient survival.
+  Master thesis: [Extrapolating cancer patient survival: a comparison of the flexible parametric model and the rolling-over algorithm](Enoch_MSc_thesis.pdf)
   """
 
 [[experience]]
