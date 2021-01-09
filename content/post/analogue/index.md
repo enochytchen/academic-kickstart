@@ -31,10 +31,15 @@ projects: []
 
 It was mentioned numerous times in different articles that excess hazard is the analogue of relative survival on the hazard scale (1-4). However, how is it derived from?
 
-We first look into the basic definition of relative survival and excess hazard. Relative survival, $R(t)$, is defined as the ratio between the survival of the cancer patient cohort, $S(t)$, and the reference population, $S^*(t)$, whereas excess hazard, $\lambda (t)$, is the all-cause hazard, $h(t)$, minus the expected hazard, $h^*(t)$.
+We first look into the basic definition of relative survival and excess hazard. Relative survival, $R(t)$, is defined as the ratio between the survival of the cancer patient cohort, $S(t)$, and the reference population, $S^*(t)$.
+
+The analogue is excess hazard, $\lambda (t)$, is the all-cause hazard, $h(t)$, minus the expected hazard,  $h^*(t)$.
+
+
 \begin{equation}
 R(t) = \frac{S(t)}{S^*(t)}
 \end{equation}
+
 \begin{equation}
 \lambda (t) = h(t) - h^*(t) 
 \end{equation}
@@ -108,13 +113,17 @@ h(t) = \frac{d H(t)}{dt}
 \begin{equation}
 R(t) = \frac{S(t)}{S^*(t)}
 \end{equation}
-First, by defintion of the relationship between the cumulative hazard function and the survival function, we will obtain
+
+First, by defintion of the relationship between the cumulative hazard function and the survival function, we then obtain
+
 \begin{equation}
-exp(- \Lambda (t)) = \frac{exp(- H(t))}{exp(-H^*(t))} \\\\\\
+exp(- \Lambda (t)) = \frac{exp(- H(t))}{exp(-H^*(t))}
 \end{equation}
+
 \begin{equation}
 exp(- \Lambda (t)) = exp(- H(t) + H^*(t)) 
 \end{equation}
+
 \begin{equation}
 \Lambda (t) = H(t) - H^*(t)
 \end{equation}

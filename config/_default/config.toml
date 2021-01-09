@@ -19,8 +19,6 @@ copyright = ""
 ############################
 ## Advanced options below ##
 ############################
-
-# Name of Academic theme folder in `themes/`.
 theme = "academic"
 
 # Get last modified date for content from Git?

@@ -80,6 +80,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
 
+
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "enoch.yitung.chen@ki.se"
 
