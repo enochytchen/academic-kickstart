@@ -17,4 +17,9 @@ max_line_length = 100
 trim_trailing_whitespace = false
 
 [layouts/shortcodes/*.html]
-insert_final_newline = false
+insert_final_newline = true
+
+[/layouts/shortcodes/toc.html]
+<nav id="toc">
+    {{ .Page.TableOfContents }}
+</nav>
